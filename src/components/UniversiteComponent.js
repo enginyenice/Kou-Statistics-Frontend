@@ -52,7 +52,7 @@ export default class UniversiteComponent extends Component {
     return <ListGroup>{items}</ListGroup>;
   }
   getUniversiteList() {
-    fetch("http://kouistatistik.enginyenice.com/?donem="+this.props.allData.donemId+"&universite")
+    fetch("https://kouistatistik.enginyenice.com/?donem="+this.props.allData.donemId+"&universite")
       .then((res) => res.json())
       .then((response) => {
         let details = [];

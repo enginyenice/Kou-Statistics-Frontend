@@ -49,7 +49,7 @@ export default class BolumComponent extends Component {
   }
   getBolumList() {
     fetch(
-      "http://kouistatistik.enginyenice.com/?donem=" +
+      "https://kouistatistik.enginyenice.com/?donem=" +
         this.props.allData.donemId +
         "&universite=" +
         this.props.allData.universiteId +

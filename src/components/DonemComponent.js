@@ -60,7 +60,7 @@ export default class DonemComponent extends Component {
     return <ListGroup>{items}</ListGroup>;
   }
   getDonemList() {
-    fetch("http://kouistatistik.enginyenice.com/?donem")
+    fetch("https://kouistatistik.enginyenice.com/?donem")
       .then((res) => res.json())
       .then((response) => {
         let details = [];

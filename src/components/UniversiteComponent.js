@@ -77,13 +77,13 @@ export default class UniversiteComponent extends Component {
             <Form.Group controlId="formBasicEmail">
               <Form.Label>Birim</Form.Label>
               <Form.Control
-              autocomplete="off"
+              autoComplete="off"
                 onKeyUp={this.dataSearch}
                 //value={this.state.donemValue}
                 className="donemInput"
                 type="text"
                 required="require"
-                placeholder="Birim Seçiniz.."
+                placeholder="Birim ara.."
               />
             </Form.Group>
           </Col>

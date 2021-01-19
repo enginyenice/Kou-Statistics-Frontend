@@ -78,13 +78,13 @@ export default class DersComponent extends Component {
             <Form.Group controlId="formBasicEmail">
               <Form.Label>Dersler</Form.Label>
               <Form.Control
-              autocomplete="off"
+              autoComplete="off"
                 onKeyUp={this.dataSearch}
                 //value={this.state.donemValue}
                 className="donemInput"
                 type="text"
                 required="require"
-                placeholder="Dersler Seçiniz.."
+                placeholder="Ders/Hoca ara.."
               />
             </Form.Group>
           </Col>

@@ -83,11 +83,11 @@ export default class BolumComponent extends Component {
               <Form.Control
                 onKeyUp={this.dataSearch}
                 //value={this.state.donemValue}
-                autocomplete="off"
+                autoComplete="off"
                 className="donemInput"
                 type="text"
                 required="require"
-                placeholder="Bölüm/Program Seçiniz.."
+                placeholder="Bölüm/Program ara.."
               />
             </Form.Group>
           </Col>

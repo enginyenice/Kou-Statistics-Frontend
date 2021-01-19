@@ -86,13 +86,13 @@ export default class DonemComponent extends Component {
             <Form.Group controlId="formBasicEmail">
               <Form.Label>Dönem</Form.Label>
               <Form.Control
-                autocomplete="off"
+                autoComplete="off"
                 onKeyUp={this.dataSearch}
                 //value={this.state.donemValue}
                 className="donemInput"
                 type="text"
                 required="require"
-                placeholder="Dönem Seçiniz.."
+                placeholder="Dönem ara.."
               />
             </Form.Group>
           </Col>

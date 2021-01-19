@@ -213,6 +213,7 @@ export default class IstatistikComponent extends Component {
             </Container>
           </>
         )}
+        {this.state.DersDetay.Donem === undefined && (<LoaderComponent></LoaderComponent>) }
       </div>
     );
   }

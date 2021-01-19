@@ -237,7 +237,9 @@ export default class SearchComponents extends Component {
             </Row>
           </Card.Header>
           <Card.Body>
-          <h5>
+          {
+            this.state.TextList.dersText === "" && (
+            <h5>
             <Badge variant="primary">{
             (this.state.TextList.donemText !== "")?this.state.TextList.donemText+" ":"" }
             {(this.state.TextList.donemText !== "")? (<span><FontAwesomeIcon icon={faArrowRight} /></span>):""}
@@ -259,6 +261,8 @@ export default class SearchComponents extends Component {
             </Badge>
             </h5> 
 
+            )
+          }
 
             {this.state.IdList.donemId === "" &&
               this.state.IdList.universiteId === "" &&

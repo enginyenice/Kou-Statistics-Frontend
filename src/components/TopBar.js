@@ -11,7 +11,7 @@ export default function TopBar() {
           width="55"
           height="55"
           className="d-inline-block align-top"
-          alt="React Bootstrap logo"
+          alt="Kocaeli Üniversitesi"
         />
       </Navbar.Brand>
     </Navbar>

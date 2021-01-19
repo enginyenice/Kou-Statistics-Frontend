@@ -152,7 +152,7 @@ export default class SearchComponents extends Component {
         IdList: {
           donemId: this.state.IdList.donemId,
           universiteId: this.state.IdList.universiteId,
-          fakulteId: this.state.IdList.universiteId,
+          fakulteId: this.state.IdList.fakulteId,
           bolumId: "",
           dersId: "" ,
         },

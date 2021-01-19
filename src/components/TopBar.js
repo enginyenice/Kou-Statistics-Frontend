@@ -7,7 +7,7 @@ export default function TopBar() {
     <Navbar bg="light">
       <Navbar.Brand href="#home">
         <img
-          src="http://bhi.kocaeli.edu.tr/amblem/logorgb.png"
+          src="/logo.png"
           width="55"
           height="55"
           className="d-inline-block align-top"

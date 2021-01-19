@@ -49,7 +49,7 @@ export default class FakulteComponent extends Component {
         </ListGroup.Item>
       );
     });
-    return <ListGroup>{items}</ListGroup>;
+    return <ListGroup style={{cursor:"pointer"}}>{items}</ListGroup>;
   }
   getFakulteList() {
     fetch("https://kouistatistik.enginyenice.com/?donem="+this.props.allData.donemId+"&universite="+this.props.allData.universiteId+"&fakulte")

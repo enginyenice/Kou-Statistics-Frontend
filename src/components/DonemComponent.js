@@ -57,7 +57,7 @@ export default class DonemComponent extends Component {
         </ListGroup.Item>
       );
     });
-    return <ListGroup>{items}</ListGroup>;
+    return <ListGroup style={{cursor:"pointer"}}>{items}</ListGroup>;
   }
   getDonemList() {
     fetch("https://kouistatistik.enginyenice.com/?donem")

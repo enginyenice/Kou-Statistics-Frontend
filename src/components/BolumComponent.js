@@ -45,7 +45,7 @@ export default class BolumComponent extends Component {
         </ListGroup.Item>
       );
     });
-    return <ListGroup>{items}</ListGroup>;
+    return <ListGroup style={{cursor:"pointer"}}>{items}</ListGroup>;
   }
   getBolumList() {
     fetch(

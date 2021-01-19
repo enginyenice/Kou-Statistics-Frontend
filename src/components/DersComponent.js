@@ -49,7 +49,7 @@ export default class DersComponent extends Component {
         </ListGroup.Item>
       );
     });
-    return <ListGroup>{items}</ListGroup>;
+    return <ListGroup style={{cursor:"pointer"}}>{items}</ListGroup>;
   }
   getDersList() {
     fetch("https://kouistatistik.enginyenice.com/?donem="+this.props.allData.donemId+"&universite="

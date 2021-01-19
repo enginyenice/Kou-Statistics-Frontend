@@ -6,7 +6,7 @@ import DonemComponent from "./DonemComponent";
 import FakulteComponent from "./FakulteComponent";
 import UniversiteComponent from "./UniversiteComponent";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBackspace, faArrowRight, faHeart } from '@fortawesome/free-solid-svg-icons'
+import { faBackspace, faArrowRight, faHeart, faCopyright } from '@fortawesome/free-solid-svg-icons'
 import IstatistikComponent from "./IstatistikComponent";
 
 export default class SearchComponents extends Component {
@@ -331,10 +331,10 @@ export default class SearchComponents extends Component {
           </Card.Body>
           <Card.Footer className="formCardFooter">
            <Row>
-           <Col xs={12} sm={12} md={6}>
+           <Col xs={12} sm={12} md={6} className="text-center">
              <b>Tüm Hakları Saklıdır. </b>
              </Col>
-             <Col  xs={12} sm={12} md={6} className="text-right">
+             <Col  xs={12} sm={12} md={6} className="text-center">
              
              <b>Kocaeli Üniversitesi </b> <FontAwesomeIcon icon={faHeart} style={{color:"darkgreen"}} /><b> Engin Yenice</b>
              </Col>

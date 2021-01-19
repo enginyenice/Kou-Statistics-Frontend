@@ -49,7 +49,7 @@ export default class UniversiteComponent extends Component {
         </ListGroup.Item>
       );
     });
-    return <ListGroup>{items}</ListGroup>;
+    return <ListGroup style={{cursor:"pointer"}}>{items}</ListGroup>;
   }
   getUniversiteList() {
     fetch("https://kouistatistik.enginyenice.com/?donem="+this.props.allData.donemId+"&universite")

@@ -86,6 +86,7 @@ export default class DonemComponent extends Component {
             <Form.Group controlId="formBasicEmail">
               <Form.Label>Dönem</Form.Label>
               <Form.Control
+                autocomplete="off"
                 onKeyUp={this.dataSearch}
                 //value={this.state.donemValue}
                 className="donemInput"

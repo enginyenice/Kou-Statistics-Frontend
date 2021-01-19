@@ -77,6 +77,7 @@ export default class FakulteComponent extends Component {
             <Form.Group controlId="formBasicEmail">
               <Form.Label>Fakülte/YO/MYO</Form.Label>
               <Form.Control
+              autocomplete="off"
                 onKeyUp={this.dataSearch}
                 //value={this.state.donemValue}
                 className="donemInput"

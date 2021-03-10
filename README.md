@@ -1,6 +1,10 @@
 # Kocaeli University Statistcs 3rd Party Api
 [ Kocaeli University Statistcs 3rd Party Api](https://github.com/enginyenice/kou-statistcs-api)
 
+
+## Demo Application Url
+[Kocaeli University 3rd Party Statistics Application URL](https://kou-istatistik.herokuapp.com/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

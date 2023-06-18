@@ -29,7 +29,7 @@ export default class IstatistikComponent extends Component {
   }
   getIstatistik() {
     fetch(
-      "https://kouistatistik.enginyenice.com/?donem=" +
+      "https://kouistatistikapi.enginyenice.com/?donem=" +
         this.props.allData.donemId +
         "&universite=" +
         this.props.allData.universiteId +

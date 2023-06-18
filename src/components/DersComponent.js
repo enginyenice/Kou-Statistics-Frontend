@@ -52,7 +52,7 @@ export default class DersComponent extends Component {
     return <ListGroup style={{cursor:"pointer"}}>{items}</ListGroup>;
   }
   getDersList() {
-    fetch("https://kouistatistik.enginyenice.com/?donem="+this.props.allData.donemId+"&universite="
+    fetch("https://kouistatistikapi.enginyenice.com/?donem="+this.props.allData.donemId+"&universite="
     +this.props.allData.universiteId+"&fakulte="+this.props.allData.fakulteId+"&bolum="+this.props.allData.bolumId+"&ders")
       .then((res) => res.json())
       .then((response) => {
